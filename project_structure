@@ -1,0 +1,23 @@
+CreditRiskPredictor-ci-cd
+  └
+    input/
+      ├── data.csv
+      ├── train.csv
+      ├── test.csv
+    src/
+      └── __init__.py
+      ├── train_model.py
+      ├── predict.py
+      ├── tune_model.py
+      ├── model_selection.py
+      └── utils.py
+     templates/
+      ├── home.html
+      └── result.html
+    models/
+      ├── final_model.pkl
+      ├── model_selection_results.json
+    notebooks/
+      ├── data/
+      └── exploration.ipynb
+    README.md

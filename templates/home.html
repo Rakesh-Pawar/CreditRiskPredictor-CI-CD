@@ -1,0 +1,360 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Credit Risk Prediction</title>-->
+<!--    <style>-->
+<!--        body {-->
+<!--            font-family: Arial, sans-serif;-->
+<!--            background-color: #f4f4f4;-->
+<!--            margin: 0;-->
+<!--            padding: 0;-->
+<!--            display: flex;-->
+<!--            justify-content: center;-->
+<!--            align-items: center;-->
+<!--            min-height: 100vh; /* Ensure the body takes at least the full viewport height */-->
+<!--        }-->
+<!--        .container {-->
+<!--            background-color: #fff;-->
+<!--            padding: 20px;-->
+<!--            border-radius: 8px;-->
+<!--            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-->
+<!--            width: 100%;-->
+<!--            max-width: 800px; /* Increase max-width for larger screens */-->
+<!--            text-align: left; /* Align form elements to the left */-->
+<!--            overflow: auto; /* Enable scrolling if content exceeds container */-->
+<!--        }-->
+<!--        h1 {-->
+<!--            text-align: center;-->
+<!--            color: #333;-->
+<!--        }-->
+<!--        form {-->
+<!--            display: grid;-->
+<!--            grid-template-columns: 1fr 1fr; /* Two columns layout */-->
+<!--            gap: 10px; /* Gap between form elements */-->
+<!--        }-->
+<!--        label {-->
+<!--            color: #333;-->
+<!--        }-->
+<!--        input, select {-->
+<!--            padding: 8px;-->
+<!--            border: 1px solid #ccc;-->
+<!--            border-radius: 4px;-->
+<!--            font-size: 16px;-->
+<!--            width: 100%; /* Make input fields full width */-->
+<!--            box-sizing: border-box; /* Include padding and border in width calculation */-->
+<!--        }-->
+<!--        button {-->
+<!--            padding: 10px;-->
+<!--            border: none;-->
+<!--            border-radius: 4px;-->
+<!--            background-color: #28a745;-->
+<!--            color: white;-->
+<!--            font-size: 16px;-->
+<!--            cursor: pointer;-->
+<!--            width: 100%; /* Make button full width */-->
+<!--        }-->
+<!--        button:hover {-->
+<!--            background-color: #218838;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container">-->
+<!--        <h1>Credit Risk Prediction</h1>-->
+<!--        <form action="/predict" method="post">-->
+<!--            <label for="Primary_applicant_age_in_years">Primary Applicant Age in Years</label>-->
+<!--            <input type="text" id="Primary_applicant_age_in_years" name="Primary_applicant_age_in_years" required>-->
+
+<!--            <label for="Gender">Gender</label>-->
+<!--            <select id="Gender" name="Gender" required>-->
+<!--                <option value="male">Male</option>-->
+<!--                <option value="female">Female</option>-->
+<!--            </select>-->
+
+<!--            <label for="Marital_status">Marital Status</label>-->
+<!--            <select id="Marital_status" name="Marital_status" required>-->
+<!--                <option value="single">Single</option>-->
+<!--                <option value="married">Married</option>-->
+<!--                <option value="separated">Separated</option>-->
+<!--            </select>-->
+
+<!--            <label for="Number_of_dependents">Number of Dependents</label>-->
+<!--            <input type="text" id="Number_of_dependents" name="Number_of_dependents" required>-->
+
+<!--            <label for="Housing">Housing</label>-->
+<!--            <select id="Housing" name="Housing" required>-->
+<!--                <option value="own">Own</option>-->
+<!--                <option value="rent">Rent</option>-->
+<!--                <option value="free">Free</option>-->
+<!--            </select>-->
+
+<!--            <label for="Years_at_current_residence">Years at Current Residence</label>-->
+<!--            <input type="text" id="Years_at_current_residence" name="Years_at_current_residence" required>-->
+
+<!--            <label for="Employment_status">Employment Status</label>-->
+<!--            <select id="Employment_status" name="Employment_status" required>-->
+<!--                <option value="employee">Employee</option>-->
+<!--                <option value="qualified employee">Qualified Employee</option>-->
+<!--                <option value="unemployed">Unemployed</option>-->
+<!--                <option value="unskilled - resident">Unskilled - Resident</option>-->
+<!--            </select>-->
+
+<!--            <label for="Foreign_worker">Foreign Worker (1 for Yes, 0 for No):</label>-->
+<!--            <input type="text" id="Foreign_worker" name="Foreign_worker" required>-->
+
+<!--            <label for="Savings_account_balance">Savings Account Balance</label>-->
+<!--            <select id="Savings_account_balance" name="Savings_account_balance" required>-->
+<!--                <option value="Low">Low</option>-->
+<!--                <option value="Medium">Medium</option>-->
+<!--                <option value="High">High</option>-->
+<!--                <option value="Very high">Very High</option>-->
+<!--            </select>-->
+
+<!--            <label for="Has_been_employed_for_at_least (year)">Has Been Employed for at Least (Years)</label>-->
+<!--            <input type="text" id="Has_been_employed_for_at_least (year)" name="Has_been_employed_for_at_least (year)" required>-->
+
+<!--            <label for="Months_loan_taken_for">Months Loan Taken For</label>-->
+<!--            <input type="text" id="Months_loan_taken_for" name="Months_loan_taken_for" required>-->
+
+<!--            <label for="Purpose">Purpose</label>-->
+<!--            <select id="Purpose" name="Purpose" required>-->
+<!--                <option value="new vehicle">New Vehicle</option>-->
+<!--                <option value="used vehicle">Used Vehicle</option>-->
+<!--                <option value="FF&E">FF&E</option>-->
+<!--                <option value="business">Business</option>-->
+<!--                <option value="career development">Career Development</option>-->
+<!--                <option value="domestic appliances">Domestic Appliances</option>-->
+<!--                <option value="education">Education</option>-->
+<!--                <option value="electronic equipment">Electronic Equipment</option>-->
+<!--                <option value="repair costs">Repair Costs</option>-->
+<!--            </select>-->
+
+<!--            <label for="Principal_loan_amount">Principal Loan Amount</label>-->
+<!--            <input type="text" id="Principal_loan_amount" name="Principal_loan_amount" required>-->
+
+<!--            <label for="EMI_rate_in_percentage_of_disposable_income">EMI Rate in Percentage of Disposable Income</label>-->
+<!--            <input type="text" id="EMI_rate_in_percentage_of_disposable_income" name="EMI_rate_in_percentage_of_disposable_income" required>-->
+
+<!--            <label for="Property">Property</label>-->
+<!--            <select id="Property" name="Property" required>-->
+<!--                <option value="car or other">Car or Other</option>-->
+<!--                <option value="real estate">Real Estate</option>-->
+<!--                <option value="building society savings agreement/life insurance">Building Society Savings Agreement/Life Insurance</option>-->
+<!--            </select>-->
+
+<!--            <label for="Has_coapplicant">Has Coapplicant (1 for Yes, 0 for No)</label>-->
+<!--            <input type="text" id="Has_coapplicant" name="Has_coapplicant" required>-->
+
+<!--            <label for="Has_guarantor">Has Guarantor (1 for Yes, 0 for No)</label>-->
+<!--            <input type="text" id="Has_guarantor" name="Has_guarantor" required>-->
+
+<!--            <label for="Number_of_existing_loans_at_this_bank">Number of Existing Loans at This Bank</label>-->
+<!--            <input type="text" id="Number_of_existing_loans_at_this_bank" name="Number_of_existing_loans_at_this_bank" required>-->
+
+<!--            <label for="Loan_history">Loan History</label>-->
+<!--            <select id="Loan_history" name="Loan_history" required>-->
+<!--                <option value="all loans at this bank paid back duly">All loans at this bank paid back duly</option>-->
+<!--                <option value="critical/pending loans at other banks">Critical/pending loans at other banks</option>-->
+<!--                <option value="no loans taken/all loans paid back duly">No loans taken/all loans paid back duly</option>-->
+<!--                <option value="delay in paying off loans in the past">Delay in paying off loans in the past</option>-->
+<!--                <option value="existing loans paid back duly till now">Existing loans paid back duly till now</option>-->
+<!--            </select>-->
+
+<!--            <button type="submit">Submit</button>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Risk Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+        }
+        .title-box {
+            background-color: #87ceeb; /* Light sky blue */
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 820px; /* Limit width to maintain readability */
+            margin-top: 15px; /* Add margin to separate from top */
+            position: absolute; /* Position the title box absolutely */
+            top: 0; /* Align to the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for center alignment */
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px; /* Increase max-width for larger screens */
+            margin-top: 100px; /* Provide space below the title */
+            text-align: left; /* Align form elements to the left */
+            overflow: auto; /* Enable scrolling if content exceeds container */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns layout */
+            gap: 10px; /* Gap between form elements */
+        }
+        label {
+            color: #333;
+        }
+        input, select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%; /* Make input fields full width */
+            box-sizing: border-box; /* Include padding and border in width calculation */
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%; /* Make button full width */
+            max-width: 200px; /* Limit max-width to control button size */
+            margin: 0 auto; /* Center align horizontally */
+            display: block
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-box">
+        <h1>Credit Risk Prediction</h1>
+    </div>
+    <div class="container">
+        <form action="/predict" method="post">
+            <label for="Primary_applicant_age_in_years">Primary Applicant Age in Years</label>
+            <input type="text" id="Primary_applicant_age_in_years" name="Primary_applicant_age_in_years" required>
+
+            <label for="Gender">Gender</label>
+            <select id="Gender" name="Gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="Marital_status">Marital Status</label>
+            <select id="Marital_status" name="Marital_status" required>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="separated">Separated</option>
+            </select>
+
+            <label for="Number_of_dependents">Number of Dependents</label>
+            <input type="text" id="Number_of_dependents" name="Number_of_dependents" required>
+
+            <label for="Housing">Housing</label>
+            <select id="Housing" name="Housing" required>
+                <option value="own">Own</option>
+                <option value="rent">Rent</option>
+                <option value="free">Free</option>
+            </select>
+
+            <label for="Years_at_current_residence">Years at Current Residence</label>
+            <input type="text" id="Years_at_current_residence" name="Years_at_current_residence" required>
+
+            <label for="Employment_status">Employment Status</label>
+            <select id="Employment_status" name="Employment_status" required>
+                <option value="employee">Employee</option>
+                <option value="qualified employee">Qualified Employee</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="unskilled - resident">Unskilled - Resident</option>
+            </select>
+
+            <label for="Foreign_worker">Foreign Worker (1 for Yes, 0 for No):</label>
+            <input type="text" id="Foreign_worker" name="Foreign_worker" required>
+
+            <label for="Savings_account_balance">Savings Account Balance</label>
+            <select id="Savings_account_balance" name="Savings_account_balance" required>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Very high">Very High</option>
+            </select>
+
+            <label for="Has_been_employed_for_at_least (year)">Has Been Employed for at Least (Years)</label>
+            <input type="text" id="Has_been_employed_for_at_least (year)" name="Has_been_employed_for_at_least (year)" required>
+
+            <label for="Months_loan_taken_for">Months Loan Taken For</label>
+            <input type="text" id="Months_loan_taken_for" name="Months_loan_taken_for" required>
+
+            <label for="Purpose">Purpose</label>
+            <select id="Purpose" name="Purpose" required>
+                <option value="new vehicle">New Vehicle</option>
+                <option value="used vehicle">Used Vehicle</option>
+                <option value="FF&E">FF&E</option>
+                <option value="business">Business</option>
+                <option value="career development">Career Development</option>
+                <option value="domestic appliances">Domestic Appliances</option>
+                <option value="education">Education</option>
+                <option value="electronic equipment">Electronic Equipment</option>
+                <option value="repair costs">Repair Costs</option>
+            </select>
+
+            <label for="Principal_loan_amount">Principal Loan Amount</label>
+            <input type="text" id="Principal_loan_amount" name="Principal_loan_amount" required>
+
+            <label for="EMI_rate_in_percentage_of_disposable_income">EMI Rate in Percentage of Disposable Income</label>
+            <input type="text" id="EMI_rate_in_percentage_of_disposable_income" name="EMI_rate_in_percentage_of_disposable_income" required>
+
+            <label for="Property">Property</label>
+            <select id="Property" name="Property" required>
+                <option value="car or other">Car or Other</option>
+                <option value="real estate">Real Estate</option>
+                <option value="building society savings agreement/life insurance">Building Society Savings Agreement/Life Insurance</option>
+            </select>
+
+            <label for="Has_coapplicant">Has Coapplicant (1 for Yes, 0 for No)</label>
+            <input type="text" id="Has_coapplicant" name="Has_coapplicant" required>
+
+            <label for="Has_guarantor">Has Guarantor (1 for Yes, 0 for No)</label>
+            <input type="text" id="Has_guarantor" name="Has_guarantor" required>
+
+            <label for="Number_of_existing_loans_at_this_bank">Number of Existing Loans at This Bank</label>
+            <input type="text" id="Number_of_existing_loans_at_this_bank" name="Number_of_existing_loans_at_this_bank" required>
+
+            <label for="Loan_history">Loan History</label>
+            <select id="Loan_history" name="Loan_history" required>
+                <option value="all loans at this bank paid back duly">All loans at this bank paid back duly</option>
+                <option value="critical/pending loans at other banks">Critical/pending loans at other banks</option>
+                <option value="no loans taken/all loans paid back duly">No loans taken/all loans paid back duly</option>
+                <option value="delay in paying off loans in the past">Delay in paying off loans in the past</option>
+                <option value="existing loans paid back duly till now">Existing loans paid back duly till now</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

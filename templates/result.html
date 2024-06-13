@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .result-box {
+            padding: 10px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 2px solid;
+        }
+        .high-risk {
+            border-color: #dc3545;
+            color: #dc3545;
+        }
+        .low-risk {
+            border-color: #28a745;
+            color: #28a745;
+        }
+        .warning {
+            font-size: 14px;
+            color: #6c757d;
+            margin-top: 10px;
+        }
+        .warning-symbol {
+            font-size: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .red-warning {
+            color: #dc3545;
+        }
+        .green-warning {
+            color: #28a745;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            display: block;
+            margin-top: 20px;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="result-box {% if result == 'Applicant has high credit risk i.e low chance of paying back the loan amount' %}high-risk{% else %}low-risk{% endif %}">
+            <p>{{ result }}</p>
+        </div>
+        <div class="warning">
+            <span class="warning-symbol {% if result == 'Applicant has high credit risk' %}red-warning{% else %}green-warning{% endif %}">&#9888;</span>
+            <span class="{% if result == 'Applicant has high credit risk' %}red-warning{% else %}green-warning{% endif %}">
+                {% if result == 'Applicant has high credit risk' %}
+                    Low chance of paying back the loan amount
+                {% else %}
+                    High chance of paying back the loan amount
+                {% endif %}
+            </span>
+        </div>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>

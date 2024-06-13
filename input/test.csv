@@ -1,0 +1,201 @@
+applicant_id,Primary_applicant_age_in_years,Gender,Marital_status,Number_of_dependents,Housing,Years_at_current_residence,Employment_status,Foreign_worker,Savings_account_balance,Has_been_employed_for_at_least (year),Months_loan_taken_for,Purpose,Principal_loan_amount,EMI_rate_in_percentage_of_disposable_income,Property,Has_coapplicant,Has_guarantor,Number_of_existing_loans_at_this_bank,Loan_history
+1469590,67,male,single,1,own,4,employee,1,Low,7,6,electronic equipment,1169000,4,real estate,0,0,2,critical/pending loans at other banks
+1207582,45,male,single,2,free,4,employee,1,Low,4,42,FF&E,7882000,2,building society savings agreement/life insurance,0,1,1,existing loans paid back duly till now
+1674436,53,male,single,2,free,4,employee,1,Low,1,24,new vehicle,4870000,3,car or other,0,0,2,delay in paying off loans in the past
+1818043,24,female,separated,1,rent,4,employee,1,Low,0,48,business,4308000,3,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1250076,44,female,separated,1,free,2,qualified employee,1,Low,7,24,used vehicle,12579000,4,car or other,0,0,1,existing loans paid back duly till now
+1616625,31,male,single,2,own,2,employee,1,High,7,24,electronic equipment,3430000,3,car or other,0,0,1,existing loans paid back duly till now
+1272219,44,male,single,2,rent,3,employee,1,High,1,6,electronic equipment,2647000,2,real estate,0,0,1,existing loans paid back duly till now
+1508823,34,male,single,1,own,2,employee,1,Low,1,7,electronic equipment,2415000,3,real estate,0,1,1,existing loans paid back duly till now
+1764281,27,male,single,1,own,2,employee,1,Low,1,24,FF&E,4020000,2,car or other,0,0,1,existing loans paid back duly till now
+1547494,25,male,single,1,own,2,unskilled - resident,1,Low,0,45,electronic equipment,4746000,4,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1330233,37,male,single,1,own,2,employee,1,Low,1,18,electronic equipment,2100000,4,real estate,1,0,1,existing loans paid back duly till now
+1641291,35,female,separated,1,own,4,qualified employee,1,Low,0,11,new vehicle,1393000,4,car or other,0,0,2,critical/pending loans at other banks
+1438784,23,female,separated,1,own,2,qualified employee,1,Low,7,18,new vehicle,1961000,3,car or other,0,0,1,existing loans paid back duly till now
+1825757,61,male,single,1,free,4,qualified employee,1,Low,7,36,business,1953000,4,car or other,0,0,1,no loans taken/all loans paid back duly
+1724003,22,male,married,1,own,1,employee,1,Very high,1,12,new vehicle,1007000,4,real estate,0,0,1,existing loans paid back duly till now
+1388519,37,male,single,1,free,4,employee,1,Low,1,36,education,1819000,4,car or other,0,0,1,existing loans paid back duly till now
+1591747,51,male,single,2,free,4,qualified employee,1,Low,7,8,electronic equipment,1164000,3,car or other,0,0,2,critical/pending loans at other banks
+1132472,28,male,single,1,own,3,employee,1,Low,4,12,repair costs,1108000,4,real estate,0,0,2,no loans taken/all loans paid back duly
+1220273,20,male,single,1,rent,4,employee,1,Low,7,24,FF&E,3617000,4,car or other,1,0,2,critical/pending loans at other banks
+1887006,34,male,single,1,own,4,employee,1,Medium,1,18,business,2622000,4,car or other,0,0,1,existing loans paid back duly till now
+1570732,36,male,single,1,own,4,employee,1,Low,7,36,electronic equipment,2337000,4,real estate,0,0,1,critical/pending loans at other banks
+1466716,24,male,single,1,rent,4,employee,1,Low,4,36,electronic equipment,2323000,4,car or other,0,0,1,existing loans paid back duly till now
+1754975,35,male,married,1,own,2,employee,1,High,7,14,business,1410000,1,real estate,0,0,1,existing loans paid back duly till now
+1848791,47,male,single,1,own,1,employee,1,Low,7,48,electronic equipment,3578000,4,real estate,0,0,1,critical/pending loans at other banks
+1229152,30,female,separated,1,own,3,qualified employee,1,Low,4,42,electronic equipment,7174000,4,car or other,0,0,1,existing loans paid back duly till now
+1601894,27,male,single,1,own,2,employee,1,Very high,1,27,used vehicle,8613000,2,car or other,0,0,2,delay in paying off loans in the past
+1682758,27,male,single,1,own,2,qualified employee,1,Low,1,27,electronic equipment,3416000,3,car or other,0,0,1,existing loans paid back duly till now
+1387053,39,female,separated,1,own,4,employee,1,Low,7,6,new vehicle,860000,1,car or other,0,0,2,critical/pending loans at other banks
+1901178,28,male,single,1,own,2,employee,1,Low,1,36,FF&E,5371000,3,building society savings agreement/life insurance,0,1,2,critical/pending loans at other banks
+1403203,42,male,single,2,free,4,employee,1,Medium,7,6,electronic equipment,1346000,2,car or other,0,0,1,existing loans paid back duly till now
+1680095,38,male,single,1,own,3,employee,1,Medium,4,24,new vehicle,3512000,2,car or other,0,0,2,existing loans paid back duly till now
+1460273,30,female,separated,1,own,1,employee,1,Low,0,18,new vehicle,1055000,4,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1628583,70,male,single,1,free,4,qualified employee,1,Low,1,10,new vehicle,7308000,2,car or other,0,0,1,existing loans paid back duly till now
+1420832,26,female,separated,1,own,1,employee,1,Low,1,12,FF&E,763000,4,real estate,0,0,1,existing loans paid back duly till now
+1351247,28,male,separated,1,own,1,employee,1,Low,0,36,business,9572000,1,car or other,0,0,2,delay in paying off loans in the past
+1460398,20,male,married,1,own,1,employee,1,Medium,4,12,electronic equipment,674000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1603493,29,male,married,1,rent,2,employee,1,Low,4,6,electronic equipment,2108000,2,real estate,0,0,1,existing loans paid back duly till now
+1468750,28,female,separated,1,own,1,employee,1,Low,1,6,electronic equipment,1382000,1,car or other,0,0,2,critical/pending loans at other banks
+1878718,45,female,separated,1,own,4,unskilled - resident,1,Low,7,36,electronic equipment,3835000,2,real estate,0,0,1,existing loans paid back duly till now
+1613024,50,male,single,1,own,4,employee,1,Low,1,27,business,5293000,2,building society savings agreement/life insurance,0,0,2,no loans taken/all loans paid back duly
+1529476,51,male,single,1,own,2,employee,1,Low,7,36,electronic equipment,3342000,4,car or other,0,0,1,critical/pending loans at other banks
+1671701,31,male,single,1,own,1,employee,1,Low,4,18,business,3104000,3,building society savings agreement/life insurance,0,0,1,no loans taken/all loans paid back duly
+1128002,32,male,single,2,own,4,employee,1,Low,1,24,business,2978000,4,real estate,0,0,2,delay in paying off loans in the past
+1749949,27,male,single,1,own,2,employee,1,Very high,4,48,electronic equipment,10961000,1,car or other,1,0,2,existing loans paid back duly till now
+1720597,35,male,single,1,own,1,employee,1,Medium,4,12,electronic equipment,2141000,3,car or other,0,0,1,existing loans paid back duly till now
+1487170,25,male,married,1,own,2,unskilled - resident,1,Low,1,18,electronic equipment,866000,4,real estate,0,1,1,existing loans paid back duly till now
+1627604,52,male,single,1,own,4,employee,1,Low,7,12,electronic equipment,717000,4,real estate,0,0,3,critical/pending loans at other banks
+1659113,26,male,single,1,own,2,employee,1,Low,1,24,FF&E,1925000,2,real estate,0,0,1,existing loans paid back duly till now
+1812017,39,female,separated,1,own,4,unskilled - resident,1,Very high,4,6,new vehicle,666000,3,real estate,0,0,2,critical/pending loans at other banks
+1540012,46,female,separated,1,own,2,unskilled - resident,1,Low,1,12,FF&E,2251000,1,car or other,0,0,1,existing loans paid back duly till now
+1891614,35,male,single,1,own,3,employee,1,Medium,1,24,FF&E,4151000,2,building society savings agreement/life insurance,0,0,2,delay in paying off loans in the past
+1397248,23,female,separated,1,own,4,employee,1,Medium,0,15,used vehicle,3812000,1,car or other,0,0,1,existing loans paid back duly till now
+1585697,55,female,separated,1,own,4,employee,1,Low,7,24,electronic equipment,1603000,4,car or other,0,0,1,existing loans paid back duly till now
+1232944,38,female,separated,1,own,3,employee,1,Low,0,24,electronic equipment,1533000,4,car or other,0,0,1,existing loans paid back duly till now
+1310758,45,male,separated,1,own,4,qualified employee,0,Low,7,14,new vehicle,8978000,1,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1650945,25,male,single,1,own,2,employee,1,Low,7,24,electronic equipment,999000,4,car or other,0,0,2,existing loans paid back duly till now
+1755105,29,male,single,1,rent,4,qualified employee,1,Medium,1,24,electronic equipment,1901000,4,car or other,0,0,1,existing loans paid back duly till now
+1340983,28,male,married,1,rent,4,qualified employee,1,Low,0,36,used vehicle,9398000,1,car or other,0,0,1,existing loans paid back duly till now
+1124063,43,male,single,1,own,4,employee,1,Low,1,18,FF&E,2515000,3,real estate,0,0,1,existing loans paid back duly till now
+1313483,54,female,separated,1,own,4,unemployed,1,Low,1,6,new vehicle,672000,1,real estate,0,0,1,existing loans paid back duly till now
+1774831,24,female,separated,1,rent,4,unskilled - resident,1,Low,4,30,used vehicle,4811000,2,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1241781,22,male,married,1,rent,4,unskilled - resident,1,Low,1,9,new vehicle,276000,4,real estate,0,0,1,existing loans paid back duly till now
+1246068,26,female,separated,1,own,4,employee,1,Low,0,24,FF&E,3749000,2,car or other,0,0,1,existing loans paid back duly till now
+1738925,25,male,married,1,own,3,unskilled - resident,1,Low,4,12,new vehicle,685000,2,car or other,0,0,1,existing loans paid back duly till now
+1527645,48,female,separated,1,own,4,unskilled - resident,1,Low,1,24,FF&E,4351000,1,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1449219,36,female,separated,1,own,3,employee,1,Low,1,18,new vehicle,1028000,4,real estate,0,0,2,critical/pending loans at other banks
+1392044,24,female,separated,1,own,2,qualified employee,1,Medium,0,60,new vehicle,7408000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1742101,23,female,separated,1,own,4,unskilled - resident,1,Low,0,13,electronic equipment,2101000,2,building society savings agreement/life insurance,0,1,1,existing loans paid back duly till now
+1424965,33,male,single,1,own,1,qualified employee,1,Low,7,18,business,4439000,1,real estate,1,0,1,existing loans paid back duly till now
+1608183,37,male,single,2,own,1,unskilled - resident,1,Low,0,10,new vehicle,3949000,1,building society savings agreement/life insurance,0,1,1,existing loans paid back duly till now
+1540515,23,male,single,1,own,4,employee,1,Low,0,13,electronic equipment,882000,4,real estate,0,1,2,critical/pending loans at other banks
+1545574,34,male,single,1,own,2,unskilled - resident,1,Medium,1,6,business,1743000,1,real estate,0,0,2,delay in paying off loans in the past
+1408229,32,male,single,2,free,3,employee,1,Very high,7,9,education,1136000,4,car or other,0,0,2,critical/pending loans at other banks
+1605868,23,female,separated,1,rent,4,employee,1,Low,0,9,domestic appliances,1236000,1,real estate,0,0,1,existing loans paid back duly till now
+1176865,29,female,separated,1,own,2,employee,0,Low,1,9,FF&E,959000,1,car or other,0,0,1,existing loans paid back duly till now
+1806619,38,male,single,1,own,4,qualified employee,1,Low,1,18,used vehicle,3229000,2,car or other,0,0,1,critical/pending loans at other banks
+1227016,23,female,separated,1,rent,4,employee,1,Low,4,30,FF&E,2406000,4,real estate,0,0,1,existing loans paid back duly till now
+1805732,37,male,single,1,own,3,qualified employee,1,Low,7,12,electronic equipment,3399000,2,car or other,0,0,1,existing loans paid back duly till now
+1312020,33,male,single,1,own,4,employee,1,Low,7,18,electronic equipment,6070000,3,car or other,0,0,2,critical/pending loans at other banks
+1221103,39,male,single,2,free,4,qualified employee,1,Low,4,36,new vehicle,3249000,2,car or other,0,0,1,existing loans paid back duly till now
+1221118,31,male,single,1,own,3,qualified employee,1,Low,1,9,FF&E,2406000,2,car or other,0,0,1,critical/pending loans at other banks
+1565522,46,male,separated,1,rent,1,employee,1,Low,7,12,new vehicle,1223000,1,real estate,0,0,2,existing loans paid back duly till now
+1813841,43,female,separated,1,own,1,unskilled - resident,1,Very high,1,24,electronic equipment,1516000,4,real estate,0,0,2,critical/pending loans at other banks
+1393314,39,male,married,1,own,4,employee,1,Low,0,18,electronic equipment,1473000,3,real estate,0,0,1,existing loans paid back duly till now
+1147492,27,male,single,1,own,2,employee,1,Low,0,24,business,8648000,2,car or other,0,0,2,delay in paying off loans in the past
+1358802,34,male,single,1,own,3,qualified employee,1,Medium,4,21,FF&E,1591000,4,real estate,0,0,2,delay in paying off loans in the past
+1727640,37,female,separated,1,own,4,employee,1,Very high,7,24,new vehicle,1287000,4,real estate,0,0,2,critical/pending loans at other banks
+1523394,30,female,separated,1,own,3,employee,1,Low,1,12,FF&E,1620000,2,building society savings agreement/life insurance,1,0,1,existing loans paid back duly till now
+1794199,36,male,single,1,own,3,employee,1,Low,0,15,new vehicle,1721000,2,real estate,0,0,1,existing loans paid back duly till now
+1179829,35,male,single,1,own,3,unskilled - resident,1,Low,4,24,used vehicle,4679000,3,car or other,0,0,2,delay in paying off loans in the past
+1165835,23,female,separated,1,own,4,employee,1,Low,0,6,education,448000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1773539,38,male,single,1,own,4,employee,1,Low,7,6,electronic equipment,368000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1833845,20,male,married,1,own,4,employee,1,Low,1,24,FF&E,2996000,2,car or other,0,0,1,existing loans paid back duly till now
+1787792,49,male,separated,1,own,4,employee,1,Medium,7,9,electronic equipment,1126000,2,real estate,0,0,1,existing loans paid back duly till now
+1591192,32,male,single,1,free,2,qualified employee,1,Low,1,36,used vehicle,4686000,2,car or other,0,0,1,existing loans paid back duly till now
+1541522,36,male,single,1,free,4,employee,1,Low,7,6,electronic equipment,700000,4,car or other,0,0,2,critical/pending loans at other banks
+1312890,24,female,separated,1,own,2,employee,1,Low,1,18,electronic equipment,3190000,2,real estate,0,0,1,existing loans paid back duly till now
+1845999,31,female,separated,1,own,3,employee,1,Medium,1,15,education,1532000,4,car or other,0,0,1,critical/pending loans at other banks
+1666376,32,male,single,2,own,1,employee,1,Low,4,36,education,2273000,3,car or other,0,0,2,existing loans paid back duly till now
+1337077,28,female,separated,1,rent,4,employee,1,Medium,1,15,new vehicle,2631000,2,car or other,0,0,2,existing loans paid back duly till now
+1670246,41,male,married,1,rent,4,employee,1,Low,1,12,used vehicle,1503000,4,real estate,0,0,1,delay in paying off loans in the past
+1815409,37,female,separated,1,own,4,employee,1,Low,7,18,FF&E,3612000,3,building society savings agreement/life insurance,0,0,1,critical/pending loans at other banks
+1736265,34,male,single,2,own,1,unskilled - resident,1,Low,1,18,FF&E,2864000,2,real estate,0,0,1,existing loans paid back duly till now
+1178393,49,male,single,2,free,4,employee,1,Low,7,24,used vehicle,2964000,4,car or other,0,0,1,existing loans paid back duly till now
+1857539,31,female,separated,1,own,2,employee,1,Low,1,48,electronic equipment,6758000,3,car or other,0,0,1,existing loans paid back duly till now
+1607360,38,male,single,1,own,2,employee,1,Low,4,30,electronic equipment,5954000,3,car or other,1,0,1,critical/pending loans at other banks
+1109612,22,female,separated,1,own,4,unskilled - resident,1,Low,1,15,business,806000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1519801,27,female,separated,1,own,1,employee,1,Low,4,12,electronic equipment,2930000,2,real estate,0,0,1,existing loans paid back duly till now
+1612355,42,female,separated,1,rent,4,employee,1,Low,1,24,new vehicle,1965000,4,car or other,0,0,2,delay in paying off loans in the past
+1841389,32,male,single,1,free,2,employee,1,Low,1,24,business,3863000,1,car or other,0,0,1,delay in paying off loans in the past
+1365958,33,male,single,1,own,1,employee,1,Low,0,18,electronic equipment,2051000,4,real estate,0,0,1,existing loans paid back duly till now
+1744762,48,female,separated,2,free,4,unskilled - resident,1,Medium,7,10,new vehicle,1240000,1,car or other,0,0,1,existing loans paid back duly till now
+1210184,22,female,separated,1,rent,4,employee,0,Low,1,24,used vehicle,3632000,1,car or other,0,1,1,all loans at this bank paid back duly
+1239641,37,male,single,2,rent,3,employee,1,Low,1,6,new vehicle,3676000,1,real estate,0,0,3,critical/pending loans at other banks
+1257777,32,male,single,1,own,2,employee,1,Low,1,18,new vehicle,1530000,3,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1513000,22,female,separated,1,rent,1,employee,1,Low,0,12,FF&E,1858000,4,car or other,0,0,1,existing loans paid back duly till now
+1886102,35,male,single,1,own,2,employee,1,Low,7,15,electronic equipment,1979000,4,car or other,0,0,1,existing loans paid back duly till now
+1883131,36,male,single,1,own,4,employee,1,High,1,42,FF&E,4042000,4,real estate,0,0,2,critical/pending loans at other banks
+1679090,64,male,single,1,own,4,unskilled - resident,1,Low,7,9,education,3832000,1,real estate,0,0,1,existing loans paid back duly till now
+1784512,28,female,separated,1,own,4,employee,1,Low,1,24,electronic equipment,3660000,2,car or other,0,0,1,existing loans paid back duly till now
+1326708,44,male,single,1,own,3,employee,1,Low,1,18,FF&E,1553000,4,car or other,0,0,1,all loans at this bank paid back duly
+1349046,28,female,separated,1,own,1,employee,1,High,4,24,electronic equipment,1376000,4,car or other,0,0,1,existing loans paid back duly till now
+1300927,26,male,single,2,own,2,employee,1,Low,4,42,electronic equipment,4370000,3,building society savings agreement/life insurance,0,0,2,delay in paying off loans in the past
+1736925,38,male,single,1,own,4,unskilled - resident,1,Low,7,15,repair costs,1308000,4,car or other,0,0,2,existing loans paid back duly till now
+1532977,27,male,single,1,rent,4,employee,1,Low,0,36,business,7980000,4,car or other,0,0,2,delay in paying off loans in the past
+1360939,50,male,single,1,free,1,qualified employee,1,Low,4,48,education,7476000,4,car or other,0,0,1,existing loans paid back duly till now
+1637887,37,male,single,1,own,2,unskilled - resident,1,Low,1,12,FF&E,1922000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1337177,35,male,single,1,own,1,qualified employee,1,Low,1,6,FF&E,1050000,4,building society savings agreement/life insurance,0,0,2,delay in paying off loans in the past
+1837760,47,male,single,1,own,4,employee,1,Low,7,30,electronic equipment,3017000,4,building society savings agreement/life insurance,0,0,1,critical/pending loans at other banks
+1844813,27,male,single,1,own,3,unskilled - resident,1,Medium,1,24,business,4139000,3,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1554792,31,male,single,1,own,2,employee,1,Medium,4,36,business,5742000,2,car or other,0,0,2,existing loans paid back duly till now
+1241112,24,male,married,1,own,2,employee,1,High,1,6,new vehicle,2080000,1,car or other,0,0,1,critical/pending loans at other banks
+1142576,24,male,married,1,own,2,employee,1,Medium,1,72,electronic equipment,5595000,2,car or other,0,0,1,existing loans paid back duly till now
+1662345,34,male,single,2,free,4,employee,1,Low,1,60,new vehicle,6527000,4,car or other,0,0,1,existing loans paid back duly till now
+1656838,38,female,separated,1,own,2,unemployed,1,Low,1,12,new vehicle,926000,1,building society savings agreement/life insurance,0,0,1,critical/pending loans at other banks
+1430426,40,male,single,1,rent,4,qualified employee,1,Low,7,15,education,1905000,4,car or other,0,0,1,existing loans paid back duly till now
+1735719,24,male,single,1,own,2,employee,1,Medium,4,48,new vehicle,6560000,3,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1127273,25,female,separated,1,own,4,employee,1,Low,7,9,electronic equipment,1206000,4,real estate,0,0,1,existing loans paid back duly till now
+1695246,25,male,single,1,own,4,unskilled - resident,1,Low,1,9,electronic equipment,1138000,4,real estate,0,0,2,critical/pending loans at other banks
+1619368,24,female,separated,2,rent,2,employee,1,Very high,0,6,education,433000,4,building society savings agreement/life insurance,0,0,1,all loans at this bank paid back duly
+1188964,47,male,married,1,own,2,unskilled - resident,1,High,1,15,electronic equipment,1316000,2,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1643428,28,female,separated,1,rent,4,employee,1,Very high,1,24,used vehicle,2603000,2,car or other,0,0,1,existing loans paid back duly till now
+1412879,35,male,single,2,own,4,unskilled - resident,1,Medium,1,18,new vehicle,4380000,3,car or other,0,0,1,existing loans paid back duly till now
+1165210,45,male,single,2,own,3,qualified employee,1,Low,4,6,new vehicle,6761000,1,car or other,0,0,2,critical/pending loans at other banks
+1833657,32,male,single,1,own,3,employee,1,Medium,4,24,new vehicle,2325000,2,car or other,0,0,1,all loans at this bank paid back duly
+1292645,23,male,single,1,own,4,unskilled - resident,1,Low,1,10,electronic equipment,1048000,4,real estate,0,0,1,all loans at this bank paid back duly
+1668971,22,male,single,1,own,4,employee,1,High,1,24,FF&E,2483000,4,real estate,0,0,1,all loans at this bank paid back duly
+1621486,32,female,separated,1,rent,4,employee,1,Low,4,24,new vehicle,1285000,4,car or other,0,0,1,existing loans paid back duly till now
+1298469,24,female,separated,1,rent,4,employee,1,Low,1,18,FF&E,2124000,4,real estate,0,0,2,critical/pending loans at other banks
+1197388,24,male,single,1,own,3,unskilled - resident,1,Low,1,12,electronic equipment,2214000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1278263,25,female,separated,1,own,2,qualified employee,1,Low,1,36,education,8065000,3,car or other,0,0,2,critical/pending loans at other banks
+1730881,52,male,single,1,own,4,employee,1,Medium,7,24,electronic equipment,2223000,4,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1768642,38,male,single,2,own,3,employee,1,Low,7,48,used vehicle,2751000,4,car or other,0,0,2,critical/pending loans at other banks
+1545112,50,male,single,1,free,4,employee,1,Low,7,48,education,6224000,4,car or other,0,0,1,delay in paying off loans in the past
+1617637,27,male,single,1,own,3,employee,1,Low,1,40,education,5998000,4,car or other,0,0,1,critical/pending loans at other banks
+1569484,39,female,separated,2,own,4,employee,1,Low,7,21,business,1188000,2,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1889303,27,male,married,1,own,2,employee,1,Low,1,6,FF&E,1221000,1,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1251047,32,male,single,1,rent,3,employee,1,High,7,24,FF&E,3062000,4,car or other,0,0,1,existing loans paid back duly till now
+1228039,51,male,single,2,free,4,employee,1,Low,7,18,used vehicle,7511000,1,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1258889,54,male,married,1,own,4,employee,1,Low,7,24,new vehicle,717000,4,car or other,0,0,2,delay in paying off loans in the past
+1513715,54,male,single,2,free,4,employee,1,Low,7,24,education,1597000,4,car or other,0,0,2,critical/pending loans at other banks
+1713111,26,male,married,1,own,3,unskilled - resident,0,Low,0,6,electronic equipment,590000,3,real estate,0,0,1,existing loans paid back duly till now
+1848913,55,male,single,1,free,2,qualified employee,1,Low,1,42,used vehicle,9283000,1,car or other,0,0,1,all loans at this bank paid back duly
+1113817,43,male,separated,1,own,3,qualified employee,1,Low,1,36,electronic equipment,15857000,2,car or other,1,0,1,existing loans paid back duly till now
+1609255,63,male,single,1,own,4,employee,1,Low,7,24,used vehicle,2957000,4,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1752833,46,male,married,1,own,3,employee,1,Low,7,24,electronic equipment,2611000,4,real estate,1,0,2,critical/pending loans at other banks
+1398582,57,male,single,1,own,4,unskilled - resident,1,Low,7,12,electronic equipment,709000,4,real estate,0,0,1,existing loans paid back duly till now
+1902547,40,female,separated,1,own,3,employee,1,Low,4,10,career development,894000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1759209,28,male,single,1,free,2,employee,1,Low,1,15,FF&E,3343000,4,car or other,0,0,1,critical/pending loans at other banks
+1330120,28,male,married,1,own,2,employee,1,Low,1,18,business,2169000,4,car or other,0,0,1,delay in paying off loans in the past
+1374670,32,male,single,2,own,2,unskilled - resident,1,Very high,0,27,FF&E,4526000,4,real estate,0,0,2,critical/pending loans at other banks
+1269924,27,female,separated,1,own,1,employee,1,Low,0,18,electronic equipment,2389000,4,car or other,0,0,1,existing loans paid back duly till now
+1777992,46,male,single,2,own,4,employee,0,Low,7,6,new vehicle,1343000,1,real estate,0,0,2,critical/pending loans at other banks
+1578419,40,female,separated,1,own,4,employee,1,Very high,1,11,new vehicle,1322000,4,car or other,0,0,2,critical/pending loans at other banks
+1860396,36,male,single,1,free,4,qualified employee,1,Low,0,18,electronic equipment,1940000,3,car or other,1,0,1,all loans at this bank paid back duly
+1396513,36,male,single,1,own,4,employee,1,Low,7,30,new vehicle,2181000,4,real estate,0,0,2,critical/pending loans at other banks
+1566194,53,female,separated,1,own,4,employee,1,Low,0,12,education,795000,4,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1207853,23,male,single,1,own,2,employee,1,Low,1,48,business,15672000,2,car or other,0,0,1,existing loans paid back duly till now
+1546272,42,male,single,1,free,4,employee,1,Low,7,36,used vehicle,10477000,2,car or other,0,0,2,critical/pending loans at other banks
+1792973,27,male,married,1,own,2,employee,1,Low,1,36,education,3711000,2,car or other,0,0,1,existing loans paid back duly till now
+1604138,46,female,separated,1,own,2,unskilled - resident,1,Low,0,15,used vehicle,3594000,1,building society savings agreement/life insurance,0,0,2,delay in paying off loans in the past
+1506652,25,female,separated,1,own,4,employee,1,Low,7,30,electronic equipment,2991000,2,car or other,0,0,1,existing loans paid back duly till now
+1214474,33,male,separated,1,own,1,employee,1,Medium,1,24,FF&E,2359000,1,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1853451,46,male,single,1,own,2,employee,1,Low,0,12,new vehicle,697000,4,car or other,0,0,2,all loans at this bank paid back duly
+1484251,30,male,single,1,own,1,employee,1,Low,1,9,new vehicle,1224000,3,real estate,0,0,2,critical/pending loans at other banks
+1379089,30,male,single,1,own,3,qualified employee,1,Medium,0,30,electronic equipment,1919000,4,car or other,0,0,2,delay in paying off loans in the past
+1838598,42,male,single,2,own,1,unskilled - resident,1,Low,4,4,new vehicle,1455000,2,real estate,0,0,3,critical/pending loans at other banks
+1794786,29,female,separated,1,own,4,employee,1,Low,1,12,new vehicle,1893000,4,building society savings agreement/life insurance,0,1,1,existing loans paid back duly till now
+1666331,23,male,single,1,own,2,unskilled - resident,1,High,1,27,electronic equipment,2520000,4,building society savings agreement/life insurance,0,0,2,critical/pending loans at other banks
+1107910,29,female,separated,1,rent,4,unemployed,1,Low,1,24,new vehicle,1193000,1,car or other,1,0,2,all loans at this bank paid back duly
+1386565,33,female,separated,1,own,2,employee,1,Low,1,30,electronic equipment,2831000,4,car or other,0,0,1,critical/pending loans at other banks
+1825579,47,male,single,2,own,4,unskilled - resident,1,Low,7,24,new vehicle,2538000,4,car or other,0,0,2,delay in paying off loans in the past
+1705740,25,male,married,1,rent,2,employee,1,Medium,1,15,new vehicle,1264000,2,building society savings agreement/life insurance,0,0,1,all loans at this bank paid back duly
+1466304,49,male,single,1,own,2,employee,1,Low,4,30,FF&E,8386000,2,building society savings agreement/life insurance,0,0,1,critical/pending loans at other banks
+1775563,26,male,single,2,own,2,employee,1,Low,1,36,used vehicle,8229000,2,building society savings agreement/life insurance,0,0,1,existing loans paid back duly till now
+1555553,64,female,separated,1,own,4,employee,1,Medium,1,13,electronic equipment,1409000,2,real estate,0,0,1,existing loans paid back duly till now
+1237705,23,male,married,1,rent,4,unskilled - resident,1,Low,4,18,electronic equipment,1936000,2,car or other,0,0,2,existing loans paid back duly till now
+1880194,31,female,separated,1,own,4,unskilled - resident,1,Low,4,12,FF&E,1736000,3,real estate,0,0,1,existing loans paid back duly till now
+1758046,38,male,single,1,own,4,employee,1,Low,7,12,electronic equipment,804000,4,car or other,0,0,1,existing loans paid back duly till now
+1824545,23,male,single,1,free,4,employee,1,Low,1,45,electronic equipment,1845000,4,car or other,0,0,1,existing loans paid back duly till now

@@ -1,0 +1,41 @@
+version: '3.8'  # Specify the Docker Compose version
+
+services:
+  server:
+    image: rakeshpawar20/my-app01
+    build:
+      context: .
+    ports:
+      - "5000:8000"
+    environment:
+      - FLASK_APP=src/train_model.py  # Set the Flask application entry point
+      - FLASK_RUN_HOST=0.0.0.0       # Ensure Flask runs on all network interfaces
+
+# Example of PostgreSQL database (commented out)
+#   db:
+#     image: postgres
+#     restart: always
+#     environment:
+#       POSTGRES_DB: example
+#       POSTGRES_PASSWORD_FILE: /run/secrets/db-password
+#     expose:
+#       - "5432"
+#     healthcheck:
+#       test: [ "CMD", "pg_isready" ]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+#     volumes:
+#       - db-data:/var/lib/postgresql/data
+#     secrets:
+#       - db-password
+#     depends_on:
+#       db:
+#         condition: service_healthy
+
+# Example volumes and secrets (commented out)
+# volumes:
+#   db-data:
+# secrets:
+#   db-password:
+#     file: db/password.txt
