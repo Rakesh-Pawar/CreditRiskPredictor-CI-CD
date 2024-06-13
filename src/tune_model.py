@@ -26,7 +26,7 @@ def tune_model(data_path, k):
                 Values to try: [0.1, 1.0, 10.0]
 
         2. Support Vector Machine (SVM):
-            - C (float): Penalty parameter for misclassification. Smaller values specify stronger regularization.
+            - C (float): Penalty parameter for mis-classification. Smaller values specify stronger regularization.
                 Values to try: [0.1, 1.0, 10.0]
             - kernel (str): Kernel type to be used in the algorithm. Options: 'linear', 'poly', 'rbf'.
 
@@ -47,10 +47,12 @@ def tune_model(data_path, k):
                 Values to try: [None, 10, 20, 30]
             - max_features (int, float, str or None): Number of features to consider when looking for the best split.
                 If int, then consider `max_features` features at each split.
-                If float, then `max_features` is a fraction and `int(max_features * n_features)` features are considered at each split.
+                If floated, then `max_features` is a fraction and `int(max_features * n_features)` features are considered at each split.
                 If "sqrt", then `max_features=sqrt(n_features)`.
                 If "log2", then `max_features=log2(n_features)`.
                 Values to try: ['sqrt', 'log2', None]
+                :param k:
+                :param data_path:
     """
     data = pd.read_csv(data_path)
     y = data['high_risk_applicant']

@@ -18,9 +18,11 @@ with open("./models/final_model.pkl", 'rb') as file:
 with open("./models/selected_features.json", 'r') as file:
     selected_features = json.load(file)
 
+
 @app.route('/')
 def home():
     return render_template('home.html')
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -80,6 +82,6 @@ def predict():
 
     return render_template("result.html", result=result)
 
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000)
-

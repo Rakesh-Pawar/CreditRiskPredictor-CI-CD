@@ -45,11 +45,11 @@ def load_json(filepath):
         return json.load(f)
 
 
-def evaluate_model(y_true, y_pred):
+def evaluate_model(y_true, y_predict):
     """Evaluates the model and returns evaluation metrics."""
     return {
-        'accuracy': accuracy_score(y_true, y_pred),
-        'precision': precision_score(y_true, y_pred),
-        'recall': recall_score(y_true, y_pred),
-        'f1_score': f1_score(y_true, y_pred)
+        'accuracy': accuracy_score(y_true, y_predict),
+        'precision': precision_score(y_true, y_predict),
+        'recall': recall_score(y_true, y_predict),
+        'f1_score': f1_score(y_true, y_predict)
     }

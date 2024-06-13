@@ -56,10 +56,10 @@ def predict_new_data(model_path, feature_path, new_data_path):
     X_new_selected = X_new_preprocessed[:, selected_feature_indices]
 
     # Make predictions
-    predictions = best_model.named_steps['model'].predict(X_new_selected)
+    prediction = best_model.named_steps['model'].predict(X_new_selected)
 
     # Return a DataFrame with applicant IDs and predictions
-    results = pd.DataFrame({'applicant_id': applicant_ids, 'prediction': predictions})
+    results = pd.DataFrame({'applicant_id': applicant_ids, 'prediction': prediction})
     return results
 
 
